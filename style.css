@@ -63,3 +63,10 @@ img {
   clear: both;
   width: 300px;
 }
+
+video{
+  border: 3px solid white;
+  margin-left: 410px;
+  width: 400px;
+  height: 300px;
+}
