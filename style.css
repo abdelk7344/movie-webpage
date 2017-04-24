@@ -71,12 +71,10 @@ img {
   clear: both;
   width: 400px;
   font-size: 21px;
+  margin-bottom: 50px
 }
 
-video{
 
-  margin-top: 20px; 
-  margin-left: 420px;
-  width: 400px;
-  height: 250px;
+.center {
+margin: 0 auto;
 }
