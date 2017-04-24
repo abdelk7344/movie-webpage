@@ -4,41 +4,43 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: black;
+  background: linear-gradient(white,black);;
 }
 
 h1 {
   text-align: center;
-  max-width: 400px;
+  max-width: 450px;
   border: 5px solid red;
   background-color: white;
-  margin-left: 435px;
+  margin:auto;
+  margin-bottom: 20px;
+  font-size: 45px;
 }
 
 div {
   text-align: center;
-  margin: 0 200px;
+  margin:auto;
 }
 
 .secondp {
-  clear: right;
-  position: absolute;
   padding: 5px;
-  margin-left: 480px;
-  width: 300px;
+  margin:auto;
+  width: 350px;
   border: 5px solid red;
   background-color: white;
   margin-bottom: 100px;
+  font-size: 20px;
 }
 
 .intro {
-  font-size: 19px;
+  font-size: 25px;
   background-color: white;
   margin-bottom: 10px;
   border: 5px solid red;
 }
 
 #archduke {
+  margin-left: 75px;
   float: left;
 }
 
@@ -46,22 +48,25 @@ div {
   float: right;
   background-color: white;
   overflow: hidden;
-  height: 210px;
+  margin-right: 75px;
+ 
 }
 
 img {
   height: 200px;
   width: 200px;
-  position: relative;
+  /*position: relative;*/
   border: 5px solid red;
 }
 
 .form {
   border: 5px solid red;
+  padding: 10px;
   background-color: white;
-  margin-left:480px;
+  margin: auto;
   clear: both;
-  width: 300px;
+  width: 400px;
+  font-size: 21px;
 }
 
 video{
